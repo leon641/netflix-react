@@ -56,3 +56,9 @@ color: #000;
 background-color: #e6e6e6;
 transition: all 0.2s;
 }
+
+@media screen and (max-width: 800px) {
+    .banner {
+        background-position: center center;  
+     }
+  }
