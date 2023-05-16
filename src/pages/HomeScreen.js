@@ -13,7 +13,6 @@ function HomeScreen() {
 
         <Banner />      
 
-        {/* ROW*/}
         <Row 
         title='NETFLIX ORIGINALS' 
         fetchUrl={requests.fetchNetflixOriginals} 
