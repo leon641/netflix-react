@@ -60,3 +60,12 @@ margin-top: 20px;
     border-bottom: 1px solid #282c2d;
     padding-bottom: 10px;
 }
+
+@media screen and (max-width: 800px) {
+    .profileScreen {
+        max-width: 150px;
+    }
+    .profileScreen-body > h1 {
+        margin-top: 20px;
+    }
+  }
