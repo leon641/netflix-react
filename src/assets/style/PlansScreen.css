@@ -18,3 +18,10 @@
     border: none;
     cursor: pointer;
 }
+
+@media screen and (max-width: 800px) {
+    .plansScreen-plan {
+            gap: 5px;
+    }
+    
+  }

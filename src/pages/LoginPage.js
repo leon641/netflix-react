@@ -17,7 +17,7 @@ function LoginPage() {
           onClick={() => setSignIn(true)}
           className="btn-loginPage-signIn"
         >
-          Sign In
+          Sign Up
         </button>
         <div className="loginPage-gradient"></div>
 

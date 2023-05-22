@@ -45,16 +45,16 @@ function SignUp() {
   return (
     <div className="signUp">
       <form>
-        <h1>Sign In</h1>
+        <h1>Sign Up</h1>
         <input ref={emailRef} type="email" placeholder="Email Address" />
         <input ref={passwordRef} type="password" placeholder="password" />
-        <button type="submit" onClick={signIn}>
-          Sign In
+        <button type="submit" onClick={register}>
+          Sign Up
         </button>
         <h4>
-          <span className="signUp-grey-span">New to Netflix? </span>
-          <span className="signUp-link" onClick={register}>
-            Sign Up now.
+          <span className="signUp-grey-span">Already in Netflix? </span>
+          <span className="signUp-link" onClick={signIn}>
+            Sign in now.
           </span>
         </h4>
       </form>
